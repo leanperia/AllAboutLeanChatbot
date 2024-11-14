@@ -1,0 +1,10 @@
+langchain 
+transformers 
+sentence_transformers
+langgraph
+langchain-huggingface
+langchain-anthropic
+langchain-chroma
+langchain-community
+gradio
+sentencepiece
