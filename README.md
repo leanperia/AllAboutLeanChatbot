@@ -25,11 +25,11 @@ For local installation:
 pip install -r requirements.txt
 ```
 
-Also, make sure you have the variables below in a .env file in the root directory. As such, you should also have access and credits to anthropic, huggingface and tavily APIs. 
+Also, make sure you have the variables below in a .env file in the root directory. As such, you should also have access huggingface, tavily and anthropic APIs. The first two are within free use limits, but anthropic API usage will require credits. 
 ```
-ANTHROPIC_API_KEY
 HUGGINGFACEHUB_API_TOKEN
 TAVILY_API_KEY
+ANTHROPIC_API_KEY
 ```
 
 # Design
@@ -49,12 +49,12 @@ I opted for HuggingFace for the embeddings model. I tried to force HuggingFace L
 # Evaluation
 Open any of the source documents and ask specific questions about them. You can also ask follow-up questions, or even ask more encompassing or summarizing questions as the LLM can handle it.
 
-It is possible to create evaluation datasets running tests via API to more objectively measure the performance of this RAG, however it will take too much time for me.
+It is possible to create evaluation datasets running tests via API to more objectively measure the performance of this RAG. Eval frameworks like deepeval can be used. However it will take too much time for me so I wasn't able to set this up.
 
 # Reference
-I would like to acknowledge the HuggingFace space linked below that I used as reference for building my gradio app:
+I would like to acknowledge the HuggingFace space linked below that I used as reference for the gradio app elements design:
 `https://huggingface.co/spaces/MuntasirHossain/RAG-PDF-Chatbot`
-
+Note that I threw out its chatbot logic and wrote my own.
 
 --
 
