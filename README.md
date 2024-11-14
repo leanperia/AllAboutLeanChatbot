@@ -15,7 +15,7 @@ short_description: This chatbot answers questions about Lean Louiel Peria
 
 This is a gradio app of a simple chatbot that uses underlying RAG (Retrieval-Augmented Generation) mechanisms to answer questions about Lean based on a set of documents he provided. 
 
-You can run this on HuggingFace spaces or locally. 
+You can run this on HuggingFace spaces ([link here](https://huggingface.co/spaces/leanperia/AllAboutLean)) or locally. 
 
 First, make sure to click the button to initiate the chatbot. This will load the documents about Lean.
 After that you can start conversing with the chatbot. 
