@@ -25,7 +25,7 @@ For local installation:
 pip install -r requirements.txt
 ```
 
-Also, make sure you have the variables below in a .env file in the root directory. As such, you should also have access huggingface, tavily and anthropic APIs. The first two are within free use limits, but anthropic API usage will require credits. 
+Also, make sure you have the variables below in a .env file in the root directory. As such, you should also have access to huggingface, tavily and anthropic APIs. The first two are within free use limits, but anthropic API usage will require credits. 
 ```
 HUGGINGFACEHUB_API_TOKEN
 TAVILY_API_KEY
@@ -53,7 +53,9 @@ It is possible to create evaluation datasets running tests via API to more objec
 
 # Reference
 I would like to acknowledge the HuggingFace space linked below that I used as reference for the gradio app elements design:
+
 `https://huggingface.co/spaces/MuntasirHossain/RAG-PDF-Chatbot`
+
 Note that I threw out its chatbot logic and wrote my own.
 
 --
